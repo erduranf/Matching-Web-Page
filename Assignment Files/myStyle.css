@@ -1,0 +1,177 @@
+body
+{
+	background-color:#161616;
+	color:Lightgray;
+	margin-top:25px;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom:50px;
+}
+
+h1
+{
+	font-size:60px;
+	font-weight:normal;
+	letter-spacing:0.03em;
+	margin-bottom:-15px;
+}
+
+h2
+{
+font-size:18px;
+font-weight:bold;
+letter-spacing:-0.05em;
+}
+
+.nav 
+{
+	margin-top:50px;
+	margin-bottom:40px;
+	border-radius:10px;
+	height:60px;
+	background:linear-gradient(to bottom, #333333 50%, #2b2b2b 50%); 
+}
+
+.nav a
+{
+	float:left;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	padding: 20px 20px;
+	text-transform:uppercase;
+	display:block;
+	letter-spacing:-0.05em;
+}
+
+.nav a.active
+{
+	color:#4c4c4c;
+}
+
+.nav input[type=text]
+{
+	background-image:url("searchIcon.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	color:white;
+	padding-left:10px;
+	float:right;
+	margin-top:10px;
+	margin-right:20px;
+	border-radius:10px;
+	border:none;
+	height:40px;
+	width:250px;
+	background-color:#161616;
+}
+
+::placeholder
+{
+	color:Lightgray;
+}
+
+#blocks1 ul 
+{
+	margin-left:-50px;
+}
+
+#blocks1 ul li
+{
+	color:Darkgray;
+	background-color:#2b2b2b;
+	margin-left:10px;
+	margin-bottom:30px;
+	padding-top:10px;
+	display:inline-block;
+	width:18.83%;
+	height:400px;
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+	border-style:groove;
+	border-width:0.09px;
+	border-color:Darkgray;
+}
+
+#blocks1 img
+{
+	height:125px;
+	margin-top:-10px;
+	padding:5px;
+	border:solid;
+	border-color:black;
+	border-width:1px;
+}
+
+#blocks1 p
+{
+	margin:5px 20px;
+	font-size:14px;
+	text-align:left;
+	line-height:20px;
+}
+
+#blocks1 a
+{
+	margin:-10px 15px;
+	font-size:15px;
+	float:right;
+	text-decoration:none;
+	color:inherit;
+}
+
+#main2
+{
+	color:Darkgray;
+	background-color:white;
+	margin:0 -100px;
+	padding:20px 0px;
+}
+
+#main2 .nav
+{
+	margin:20px 100px;
+}
+
+#blocks2 ul
+{
+	padding-left:100px;
+	padding-right:38px;
+}
+
+#blocks2 ul li
+{
+	font-weight:bold;
+	display:inline-block;
+	font-size:26px;
+	margin-left:10px;
+	width:31%;
+	height:150px;
+	font-family:'Bookman';
+
+}
+
+#blocks2 img
+{
+	margin-right:10px;
+	vertical-align:middle;
+	height:60px;
+}
+
+#blocks2 p
+{
+	font-size:17px;
+	letter-spacing:-0.03em;
+	font-weight:bold;
+}
+
+#footer
+{
+	margin-top:15px;
+	font-size:17px;
+	color:#4c4c4c;
+	font-weight:bold;
+	letter-spacing:-0.05em;
+}
